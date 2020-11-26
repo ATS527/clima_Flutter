@@ -1,0 +1,1 @@
+E:\\Android_Studio\\Android_Studio_Projects\\Clima-Flutter\\.dart_tool\\flutter_build\\8c3da39b6f5915b6b9e5d4d09fe3b058\\app.dill: E:\\Android_Studio\\Android_Studio_Projects\\Clima-Flutter\\scratch.dart
