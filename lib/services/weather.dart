@@ -1,5 +1,31 @@
+import 'package:clima/services/location.dart';
+import 'package:clima/services/networking.dart';
+import 'package:clima/main.dart';
+
 class WeatherModel {
-  String getWeatherIcon(int condition) {
+  dynamic weatherData;
+
+  Future<void> getCurrentLocationData() async {
+    Location location = new Location();
+    await location.getCurrentLocation();
+    //new class for http requests
+    Networking networkHelper = new Networking(
+        url:
+            'http://api.openweathermap.org/data/2.5/weather?lat=${location.lattitude}&lon=${location.longitude}&appid=8fe38362917ee57e0dca1282c8a8ef47&units=metric');
+    await networkHelper.getData(); //getting data
+    weatherData = networkHelper.decodedData;
+    print(location.lattitude);
+    print(location.longitude);
+    assignValues();
+  }
+
+  void assignValues() {
+    temperature = weatherData["main"]["temp"];
+    locationCity = weatherData["name"];
+    condition = weatherData["weather"][0]["id"];
+  }
+
+  String getWeatherIcon() {
     if (condition < 300) {
       return '🌩';
     } else if (condition < 400) {
@@ -19,12 +45,12 @@ class WeatherModel {
     }
   }
 
-  String getMessage(int temp) {
-    if (temp > 25) {
+  String getMessage() {
+    if (temperature > 25) {
       return 'It\'s 🍦 time';
-    } else if (temp > 20) {
+    } else if (temperature > 20) {
       return 'Time for shorts and 👕';
-    } else if (temp < 10) {
+    } else if (temperature < 10) {
       return 'You\'ll need 🧣 and 🧤';
     } else {
       return 'Bring a 🧥 just in case';

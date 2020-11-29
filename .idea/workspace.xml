@@ -18,10 +18,14 @@
       <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/.last_build_id" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/.last_build_id" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/NOTICES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_assets/kernel_blob.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/flutter/debug/flutter_build.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/qOKq74GyVAIOL9WcGtcWKBnFM_k=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeJavaRes/zip-cache/qOKq74GyVAIOL9WcGtcWKBnFM_k=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/merge-state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qOKq74GyVAIOL9WcGtcWKBnFM_k=" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/debug-mergeNativeLibs/zip-cache/qOKq74GyVAIOL9WcGtcWKBnFM_k=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/NOTICES" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/intermediates/merged_assets/debug/out/flutter_assets/kernel_blob.bin" afterDir="false" />
@@ -30,7 +34,14 @@
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" beforeDir="false" afterPath="$PROJECT_DIR$/build/app/outputs/flutter-apk/app.apk.sha1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" beforeDir="false" afterPath="$PROJECT_DIR$/build/f872507f30e2ff2523f0f1d19160266e.cache.dill.track.dill" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/location.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/networking.dart" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/screens/loading_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/loading_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/screens/location_screen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/screens/location_screen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/location.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/location.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/networking.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/networking.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/services/weather.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/weather.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -61,9 +72,14 @@
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Android_Studio\Android_Studio_Projects\Clima-Flutter\lib\services" />
+    </key>
   </component>
   <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="Unnamed" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
@@ -113,30 +129,46 @@
       <screen x="0" y="30" width="1360" height="738" />
     </state>
     <state x="360" y="134" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.30.1360.738@0.30.1360.738" timestamp="1606400800988" />
+    <state x="92" y="122" width="1176" height="554" key="AVDManager" timestamp="1606658968164">
+      <screen x="0" y="30" width="1360" height="738" />
+    </state>
+    <state x="92" y="122" width="1176" height="554" key="AVDManager/0.30.1360.738@0.30.1360.738" timestamp="1606658968164" />
+    <state x="499" y="145" key="AndroidProcessChooserDialog" timestamp="1606648505844">
+      <screen x="0" y="30" width="1360" height="738" />
+    </state>
+    <state x="499" y="145" key="AndroidProcessChooserDialog/0.30.1360.738@0.30.1360.738" timestamp="1606648505844" />
+    <state x="128" y="86" key="DiffContextDialog" timestamp="1606551812158">
+      <screen x="0" y="30" width="1360" height="738" />
+    </state>
+    <state x="128" y="86" key="DiffContextDialog/0.30.1360.738@0.30.1360.738" timestamp="1606551812158" />
     <state x="460" y="125" key="FileChooserDialogImpl" timestamp="1606401617059">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
     <state x="460" y="125" key="FileChooserDialogImpl/0.30.1360.738@0.30.1360.738" timestamp="1606401617059" />
-    <state width="1317" height="167" key="GridCell.Tab.0.bottom" timestamp="1606476485600">
+    <state width="1317" height="219" key="GridCell.Tab.0.bottom" timestamp="1606661618473">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
-    <state width="1317" height="167" key="GridCell.Tab.0.bottom/0.30.1360.738@0.30.1360.738" timestamp="1606476485600" />
-    <state width="1317" height="167" key="GridCell.Tab.0.center" timestamp="1606476485600">
+    <state width="1317" height="219" key="GridCell.Tab.0.bottom/0.30.1360.738@0.30.1360.738" timestamp="1606661618473" />
+    <state width="1317" height="219" key="GridCell.Tab.0.center" timestamp="1606661618473">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
-    <state width="1317" height="167" key="GridCell.Tab.0.center/0.30.1360.738@0.30.1360.738" timestamp="1606476485600" />
-    <state width="1317" height="167" key="GridCell.Tab.0.left" timestamp="1606476485600">
+    <state width="1317" height="219" key="GridCell.Tab.0.center/0.30.1360.738@0.30.1360.738" timestamp="1606661618473" />
+    <state width="1317" height="219" key="GridCell.Tab.0.left" timestamp="1606661618473">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
-    <state width="1317" height="167" key="GridCell.Tab.0.left/0.30.1360.738@0.30.1360.738" timestamp="1606476485600" />
-    <state width="1317" height="167" key="GridCell.Tab.0.right" timestamp="1606476485600">
+    <state width="1317" height="219" key="GridCell.Tab.0.left/0.30.1360.738@0.30.1360.738" timestamp="1606661618473" />
+    <state width="1317" height="219" key="GridCell.Tab.0.right" timestamp="1606661618473">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
-    <state width="1317" height="167" key="GridCell.Tab.0.right/0.30.1360.738@0.30.1360.738" timestamp="1606476485600" />
+    <state width="1317" height="219" key="GridCell.Tab.0.right/0.30.1360.738@0.30.1360.738" timestamp="1606661618473" />
     <state x="260" y="142" key="IDE.errors.dialog" timestamp="1606461994633">
       <screen x="0" y="30" width="1360" height="738" />
     </state>
     <state x="260" y="142" key="IDE.errors.dialog/0.30.1360.738@0.30.1360.738" timestamp="1606461994633" />
+    <state x="401" y="101" width="700" height="595" key="RollbackChangesDialog" timestamp="1606661588492">
+      <screen x="0" y="30" width="1360" height="738" />
+    </state>
+    <state x="401" y="101" width="700" height="595" key="RollbackChangesDialog/0.30.1360.738@0.30.1360.738" timestamp="1606661588492" />
     <state x="300" y="58" key="SettingsEditor" timestamp="1606401523673">
       <screen x="0" y="30" width="1360" height="738" />
     </state>

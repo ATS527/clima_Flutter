@@ -65,6 +65,13 @@
             </list>
           </value>
         </entry>
+        <entry key="flutter_spinkit">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter_test">
           <value>
             <list>
@@ -209,6 +216,7 @@
       <root url="file://$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/collection-1.14.13/lib" />
       <root url="file://$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/cupertino_icons-0.1.2/lib" />
       <root url="file://$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/fake_async-1.1.0/lib" />
+      <root url="file://$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_spinkit-4.1.2+1/lib" />
       <root url="file://$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-6.1.7/lib" />
       <root url="file://$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator_platform_interface-1.0.8/lib" />
       <root url="file://$PROJECT_DIR$/../../flutter_windows_1.20.0-stable/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.12.2/lib" />
